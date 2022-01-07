@@ -1,0 +1,32 @@
+{
+  "name": "codegig",
+  "version": "1.0.0",
+  "description": "Job find app for coders",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code4Wyatt/codegig.git"
+  },
+  "author": "Paul Murray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code4Wyatt/codegig/issues"
+  },
+  "homepage": "https://github.com/Code4Wyatt/codegig#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
